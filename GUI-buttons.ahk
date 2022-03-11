@@ -22,11 +22,25 @@ return
 ;------------------------------
 ;------------------------------
 
+GuiClose:
+	ExitApp
+	return
+
 Our_First_Button:
+	a := 5
+	b := 8
+	c := add(a,b)
+	MsgBox, a + b = %c%
+	return
 
 ; Functions
 ;------------------------------
-;------------------------------
+
+
+add(x,y)
+	{
+		return x + y
+	}
 
 
 
