@@ -6,7 +6,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 Gui, font, s22
 
-Gui, Add, Edit, r6 HScroll x200 y200 w200,
+Gui, Add, Edit, r6 -wrap x200 y200 w200,
 
 Gui, +Alwaysontop
 Gui, Color, black

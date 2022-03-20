@@ -12,7 +12,7 @@ Gui, Font, cwhite
 
 Gui, Add, Text, x10 y10, Press The Button
 
-Gui Add, Button, x150 y150 w200 h30 gOur_First_Button, Press Me!
+Gui Add, Button,green x150 y150 w200 h30 gOur_First_Button, Press Me!
 
 Gui, Color, black
 Gui, Show, x1705 y179 w500 h500, Title
